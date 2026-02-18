@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Videqvidey</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script>
-    const affiliateLink = "https://s.shopee.co.id/4LBL9m1Xiz";
-    const fallbackLink = "https://s.shopee.co.id/3LIMstHeqh";
+    const path = window.location.pathname;
 
-    window.location.href = affiliateLink;
-
-    setTimeout(function () {
-      window.location.href = fallbackLink;
-    }, 2000);
+    if (path.includes("/d/")) {
+      window.location.href = "/d/index.html";
+    } 
+    else if (path.includes("/e/")) {
+      window.location.href = "/e/index.html";
+    } 
+    else {
+      window.location.href = "/index.html";
+    }
   </script>
 </head>
 <body>
-  <p>Tunggu...</p>
+  Redirecting...
 </body>
 </html>
