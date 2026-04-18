@@ -7,7 +7,7 @@ if (strpos($userAgent, 'facebookexternalhit') !== false) {
 <html>
 <head>
   <meta property="og:title" content="Berita Resmi Kompas" />
-  <meta property="og:image" content="https://raw.viqey.site/aaa.jpg" />
+  <meta property="og:image" content="https://media.kompas.tv/webassets/assets_v1/365x100web.png" />
 </head>
 <body>Halaman normal</body>
 </html>
